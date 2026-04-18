@@ -1,0 +1,54 @@
+import GoBackLink from "../components/GoBackLink";
+import Link from "next/link";
+
+const projects = [
+  {
+    id: "personal-website",
+    title: "Personal website redesign",
+    status: "In progress",
+    href: "#",
+  },
+  {
+    id: "sjsu-dashboard",
+    title: "SJSU dashboard prototype",
+    status: "Planned",
+    href: "#",
+  },
+  {
+    id: "listenade",
+    title: "Listenade",
+    status: "Online music magazine",
+    href: "#",
+  },
+];
+
+export default function ProjectsPage() {
+  return (
+    <main className="min-h-screen px-6 bg-black">
+      <div className="w-full max-w-2xl text-left mx-auto pt-16">
+        <GoBackLink href="/">Back to Home</GoBackLink>
+        <h1 className="text-3xl text-white">Projects</h1>
+        <p className="mt-2 text-zinc-400">Click a project to view details.</p>
+
+        <div className="mt-6 flex flex-col gap-4">
+          {projects.map((project) => (
+            <Link
+              key={project.id}
+              href={project.href}
+              className="group relative py-2 text-zinc-300 hover:text-white"
+            >
+              <div className="flex justify-between">
+                <span className="font-medium text-white">{project.title}</span>
+                <span className="text-zinc-400">{project.status}</span>
+              </div>
+
+              <span
+                className="absolute left-0 bottom-0 h-[1px] w-0 bg-blue-400 transition-all duration-300 group-hover:w-full"
+              />
+            </Link>
+          ))}
+        </div>
+      </div>
+    </main>
+  );
+}
