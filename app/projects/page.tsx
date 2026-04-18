@@ -1,26 +1,6 @@
 import GoBackLink from "../components/GoBackLink";
 import Link from "next/link";
-
-const projects = [
-  {
-    id: "personal-website",
-    title: "Personal website redesign",
-    status: "In progress",
-    href: "#",
-  },
-  {
-    id: "sjsu-dashboard",
-    title: "SJSU dashboard prototype",
-    status: "Planned",
-    href: "#",
-  },
-  {
-    id: "listenade",
-    title: "Listenade",
-    status: "Online music magazine",
-    href: "#",
-  },
-];
+import { projects } from "./data";
 
 export default function ProjectsPage() {
   return (
@@ -33,8 +13,8 @@ export default function ProjectsPage() {
         <div className="mt-6 flex flex-col gap-4">
           {projects.map((project) => (
             <Link
-              key={project.id}
-              href={project.href}
+              key={project.slug}
+              href={`/projects/${project.slug}`}
               className="group relative py-2 text-zinc-300 hover:text-white"
             >
               <div className="flex justify-between">

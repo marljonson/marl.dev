@@ -3,6 +3,7 @@ export const posts = [
     slug: "nextjs-is-awesome",
     title: "The smart people at Pixar",
     date: "April 18, 2026",
+    summary: "Exploring the creative roles at Pixar that shape storytelling and music.",
     content: `
       At Pixar, creativity knows no bounds, and the stories behind the stories are just as fascinating as the films themselves. Recently, I had the chance to learn about the unique roles of two talented individuals who contribute to Pixar's magic in ways that are both innovative and essential.
 
@@ -21,20 +22,23 @@ export const posts = [
     slug: "bart-pop-icons",
     title: "BART stations as 2010s pop songs",
     date: "January 26, 2026",
+    summary: "A fun mapping of BART stations to 2010s pop culture icons.",
     content: `
-      This is a sample post.  
-      You can write anything here.
+      The Bay Area Rapid Transit system is full of personality, and this post
+      imagines what each station would look like as a 2010s pop icon.
 
-      **Tips:**
-      - Use Markdown-like formatting
-      - Add more posts later
-      - Replace this text with real content
+      Expect playful color palettes, city-inspired outfits, and nods to the
+      people and neighborhoods that make the Bay Area feel alive.
+
+      This page is a real blog post rendered inside the app router,
+      not just a placeholder list item.
     `,
   },
   {
     slug: "third-post",
     title: "A third title",
     date: "TBA",
+    summary: "Placeholder for future blog content.",
     content: `
       This page will eventually show your projects.
 
