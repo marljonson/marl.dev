@@ -1,19 +1,5 @@
 export const posts = [
   {
-    slug: "bart-pop-icons",
-    title: "BART stations as 2010s pop songs",
-    date: "January 26, 2026",
-    content: `
-      This is a sample post.  
-      You can write anything here.
-
-      **Tips:**
-      - Use Markdown-like formatting
-      - Add more posts later
-      - Replace this text with real content
-    `,
-  },
-  {
     slug: "nextjs-is-awesome",
     title: "The smart people at Pixar",
     date: "April 18, 2026",
@@ -29,6 +15,20 @@ export const posts = [
       On the other side of the creative spectrum is Barney Jones, whose job is to interpret the animators' abstract feelings about the best musical representations of their visible work. Barney thrives in ambiguity, turning vague emotions and ideas into cohesive soundtracks that elevate Pixar's films. His ability to navigate uncertainty allows him to craft scores that perfectly complement the animation, creating emotional depth that lingers long after the credits roll.
 
       These insights from Jessica and Barney highlight the collaborative spirit at Pixar, where every role, no matter how specialized, contributes to the larger goal of storytelling excellence. It's a reminder that behind every pixel and note is a team of passionate creators pushing the boundaries of what's possible.
+    `,
+  },
+  {
+    slug: "bart-pop-icons",
+    title: "BART stations as 2010s pop songs",
+    date: "January 26, 2026",
+    content: `
+      This is a sample post.  
+      You can write anything here.
+
+      **Tips:**
+      - Use Markdown-like formatting
+      - Add more posts later
+      - Replace this text with real content
     `,
   },
   {

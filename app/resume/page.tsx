@@ -12,8 +12,8 @@ export default function ResumePage() {
   const lastUpdated = stats.mtime.toLocaleDateString();
 
   return (
-    <main className="min-h-screen px-6 bg-black">
-      <div className="w-full max-w-2xl text-left mx-auto pt-16">
+    <main className="flex min-h-screen items-center justify-center px-6 bg-black">
+      <div className="w-full max-w-2xl text-left mx-auto">
         <GoBackLink href="/">Back to Home</GoBackLink>
 
         <h1 className="text-3xl text-white">Resume</h1>
