@@ -22,7 +22,15 @@ export default function Home() {
         <h1 className="text-3xl text-white">marl jonson</h1>
 
         <p className="mt-2 text-base text-zinc-400">
-          computer science ♠&nbsp;
+          <Link
+            href="https://catalog.sjsu.edu/preview_program.php?catoid=15&poid=9497"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-zinc-300 hover:text-white underline-offset-2 hover:underline"
+          >
+            computer science
+          </Link>
+          &nbsp;♠&nbsp;
           <Link
             href="https://www.sjsu.edu/"
             target="_blank"

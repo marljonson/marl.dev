@@ -18,7 +18,7 @@ export default async function PostPage({
 
   return (
     <main className="min-h-screen px-6">
-      <div className="w-full max-w-2xl text-left mx-auto pt-16">
+      <div className="w-full max-w-2xl text-left mx-auto pt-16 pb-16">
         <GoBackLink href="/blog">Back to Blog</GoBackLink>
 
         <h1 className="text-3xl text-white">{post.title}</h1>
