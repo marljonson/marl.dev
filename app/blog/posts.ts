@@ -19,22 +19,6 @@ export const posts = [
     `,
   },
   {
-    slug: "bart-pop-icons",
-    title: "BART stations as 2010s pop songs",
-    date: "January 26, 2026",
-    summary: "A fun mapping of BART stations to 2010s pop culture icons.",
-    content: `
-      The Bay Area Rapid Transit system is full of personality, and this post
-      imagines what each station would look like as a 2010s pop icon.
-
-      Expect playful color palettes, city-inspired outfits, and nods to the
-      people and neighborhoods that make the Bay Area feel alive.
-
-      This page is a real blog post rendered inside the app router,
-      not just a placeholder list item.
-    `,
-  },
-  {
     slug: "third-post",
     title: "A third title",
     date: "TBA",
