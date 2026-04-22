@@ -28,7 +28,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="text-zinc-300 hover:text-white underline-offset-2 hover:underline"
           >
-            computer science
+            computer science, b.s.
           </Link>
           &nbsp;♠&nbsp;
           <Link
@@ -37,7 +37,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="text-zinc-300 hover:text-white underline-offset-2 hover:underline"
           >
-            sjsu
+            san jose state university
           </Link>
         </p>
 
