@@ -66,12 +66,47 @@ export const posts = [
     `,
   },
   {
-    slug: "the-tyranny-of-choice",
-    title: "I wander around school",
+    slug: "wandering",
+    title: "Wandering around school",
     date: "April 21, 2026",
-    summary: "Wandering around campus is a joyful experience",
+    summary: "Wandering around campus is a joyful experience.",
     content: `
-      Testing
+      One day I'll map these lists on ArcGIS Online.
+
+      ...
+
+      Refill your water bottle:
+      > The Dining Commons soda machine has the best water on campus. It's cold and tastes like a mountain spring.
+      > The lobby of Yoshihiro Uchida Hall is great. The spout has a light so you can see how full your bottle is. The water tastes alright.
+      > The lobby of MacQuarrie Hall is decent.
+      > The lobby of the Interdisciplinary Science Building is decent.
+      > The second floor of the student union is questionable given the stains on the spout. I also question the sheer quanity of bottles it probably servces every weekday.
+      > The lobby of Clark Hall is poor. The water sprays everywhere and gets your sleeve wet.
+      > The lobby of Duncan Hall is the worst. There's some sort of film in the water that's slightly opaque. Would not recommend.
+
+      ...
+
+      Watch a movie with your friends:
+      > Yoshihiro Uchida Hall, first floor auditorium: great (comfy seating, warm adjustable lighting)
+      > MLK Library, study rooms: good (private setting, dim lighting, guaranteed personal reservation)
+      > Interdisciplinary Science Building, fourth floor meeting room: decent (limited private setting, a little too close to the screen)
+      > Washington Square Hall, first floor: below average (hard wooden chairs)
+      > Science Building: below average (comfy seating, sterile white environment)
+      > Tower Hall: poor (hard wooden chairs, rows not rising further back, screen too high)
+      
+      ...
+
+      Creepiest areas at night:
+      > Science Building underground tunnel
+      > MLK Library basement floor
+      > Boccardo Business center lower area
+      
+      ...
+
+      Use the bathroom:
+      > Student Wellness Center: amazing (pristine, spacious, quiet, secluded)
+      > Student Union: decent (generally clean, busy)
+      > MLK Library: poor (unkempt, noisy)
     `
   }
 ];
