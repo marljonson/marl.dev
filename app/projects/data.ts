@@ -58,6 +58,8 @@ export const projects = [
     date: "May 2026",
     summary: "A data analysis project that explores crash trends across California in 2025.",
     content: `
+      [ with: Gokul Anand, Sajid Kaiser, Fellip Oklas ]
+      
       This project analyzes 2025 California car crash data to identify patterns in timing, severity, and contributing factors. The work focuses on transforming raw records into actionable insights for safer planning.
 
       Research focus:
@@ -75,6 +77,8 @@ export const projects = [
     date: "May 2026",
     summary: "A donation platform for nonprofits, with donor workflows and campaign tracking.",
     content: `
+      [ with: Ryuto Kawabata, Yug More ]
+
       FlowChain is a three-tier donation management app built for nonprofits and fundraisers. It brings donor data, campaign performance, and approval workflows together in a single system.
 
       Core components:
@@ -92,6 +96,8 @@ export const projects = [
     date: "May 2026",
     summary: "Applying machine learning to the KU-HAR dataset for sensor-based activity recognition.",
     content: `
+      [ with: Harshit Jaglan, Thuan Lam, Ynha Nguyen, Thy Tran ]
+
       This project uses the KU-HAR human activity recognition dataset to train models that classify movements from wearable sensors. It explores preprocessing, feature engineering, and supervised learning techniques.
 
       Project work:

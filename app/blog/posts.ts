@@ -1,6 +1,6 @@
 export const posts = [
   {
-    slug: "nextjs-is-awesome",
+    slug: "pixadv",
     title: "The smart people at Pixar",
     date: "April 18, 2026",
     summary: "Exploring the creative roles at Pixar that shape storytelling and music.",
@@ -25,7 +25,7 @@ export const posts = [
     `,
   },
   {
-    slug: "katseye-dotnet",
+    slug: "katsdn",
     title: ".NET ecosystem components as Katseye members",
     date: "March 16, 2026",
     summary: "Unorthodox interview prep",
@@ -66,7 +66,7 @@ export const posts = [
     `,
   },
   {
-    slug: "wandering",
+    slug: "wander",
     title: "Wandering around school",
     date: "April 21, 2026",
     summary: "Wandering around campus is a joyful experience.",
